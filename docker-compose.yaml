@@ -1,0 +1,11 @@
+version: "3"
+services:
+  #PHP Service
+  lambda:
+    build: 
+      context: .
+    image: wangyi/lambda-node:latest
+    container_name: lambda
+    volumes:
+      - ./:/var/www/
+    command: source /root/.nvm/nvm.sh
