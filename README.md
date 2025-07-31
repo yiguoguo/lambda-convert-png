@@ -17,7 +17,7 @@ curl --request POST \
   --header 'content-type: application/json' \
   --data '{
 	"event": {
-		"pdf": "https://s3.ap-southeast-2.amazonaws.com/eiz.labels/labels/2022/10/20/6350d633462dc11007592.pdf"
+		"pdf": "https://s3.ap-southeast-2.amazonaws.com/6350d633462dc11007592.pdf"
 	}
 }'
 ```
